@@ -40,9 +40,9 @@
   width: 320px;
   transform: skew(10deg, 20deg);
   background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
-  background-image: url(suu.jpg);
+  background-image: url(mi_novia_y_yo.jpg);
   background-position: center;
-
+  background-size: cover;
 
 
 }
@@ -161,6 +161,14 @@ body {
   border-left: 180px solid transparent;
   top: -36px;
   left: -170px;
+}
+
+.footer-carta{
+  display: flex;
+}
+
+.img-estampilla{
+  padding-left: 10px;
 }
 
 .text {
