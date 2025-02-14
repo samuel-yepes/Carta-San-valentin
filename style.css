@@ -190,3 +190,57 @@ body {
 .valentines-day:hover .text {
   transform: translateY(-50px);
 }
+
+@media (max-width: 1024px) {
+  #card {
+    width: 90%;
+    left: 5%;
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 768px) {
+  #card {
+    width: 95%;
+    left: -6.5%;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    margin: 2em auto;
+  }
+
+  .side {
+    width: 100% !important;
+    transform: none !important;
+  }
+
+  .side.one {
+    height: 300px;
+  }
+
+  .side.two {
+    height: auto;
+  }
+
+  #card h2 {
+    font-size: 2.5em;
+  }
+
+  #card p {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .valentines-day {
+    transform: scale(0.8);
+  }
+
+  #card h2 {
+    font-size: 2em;
+  }
+
+  #card p {
+    font-size: 1.2em;
+  }
+}
